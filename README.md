@@ -1,27 +1,34 @@
 # Mapas
 
+
+Uso de google maps y la librería angular google maps
+
+Esta pequeña app hace uso de estas 2 librerías para agregar localización y etiquetas en un mapa.
+
+Navegue a (https://developers.google.com/maps/documentation)
+
+y obtenga una key de google Mapasna vez obtenida copie su api key y peguelo en el archivo:   src/app/app.module.ts    linea 27
+
+```
+apiKey: 'Aqui su api key'
+
+```
+
+Navegue en su consola a la carpeta de este proyecto e instale las dependencias
+
+```
+npm install
+
+```
+
+Cuando termine de instalar las dependencias escriba el comando
+
+```
+ng serve
+
+```
+
+Abra su navegador en localhost:4200 y comience a usarlo
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
